@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Get a plain text file of man page
+title: Get a Plain Text File of Man Page
 date: 2011-04-23 14:15:06.000000000 +08:00
 ---
 
