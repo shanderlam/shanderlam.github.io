@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Using Replace Method of String Object for Invoking a function
+category: Programming
+tags: [javascript]
 date: 2011-04-23 20:33:50.000000000 +08:00
 ---
 In JavaScript, *String* Object has a *replace* method, if the second parameter given to the method is a function, this function will be invoke after match peformed. The function's result (return value) will be used as the replacement string.  Note that the function will be invoked multiple times for each full match to be replaced if the regular expression in the first parameter is global.

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Switch Between Installed Version of Formula
+category: System Administrator
+tags: [homebrew]
 date: 2011-11-08 00:58:41.000000000 +08:00
 ---
 In [HomeBrew](http://mxcl.github.com/homebrew/), there is an external command for switching between installed versions of formula. Below is the description of this command.

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Automatically Change Tags Table List Base on Current File
+category: Text Editor
+tags: [emacs]
 date: 2011-04-10 22:27:33.000000000 +08:00
 ---
 If you want to change tags table list automatically base on current file in Emacs, you can use the [Etags Table](http://www.emacswiki.org/emacs/EtagsTable) extension. 

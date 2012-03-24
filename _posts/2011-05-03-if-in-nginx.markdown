@@ -1,6 +1,8 @@
 ---
 layout: post
 title: if in Nginx
+category: System Administrator
+tags: [nginx]
 date: 2011-05-03 07:07:16.000000000 +08:00
 ---
 In some nginx configuration file, you may find some lines like below:

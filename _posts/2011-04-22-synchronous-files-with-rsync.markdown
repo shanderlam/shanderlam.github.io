@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Synchronous Files with Rsync
+category: System Administrator
+tags: [rsync]
 date: 2011-04-22 23:22:44.000000000 +08:00
 ---
 With rsync, you can synchronous your files beween local machine and remote host, or files in different directories.

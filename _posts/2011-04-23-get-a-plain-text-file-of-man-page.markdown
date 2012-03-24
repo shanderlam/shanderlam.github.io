@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Get a Plain Text File of Man Page
+category: System Administrator
+tags: [man]
 date: 2011-04-23 14:15:06.000000000 +08:00
 ---
 

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Tips for Name Binding in Python
+category: Programming
+tags: [python]
 date: 2011-04-23 13:45:31.000000000 +08:00
 ---
 <cite>

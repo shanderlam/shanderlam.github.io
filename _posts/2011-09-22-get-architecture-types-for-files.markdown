@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Get Architecture Types for Files
+category: System Administrator
+tags: [osx]
 date: 2011-09-22 20:44:59.000000000 +08:00
 ---
 In Mac OS X, if you want to get architecture types for a specific file, you can use the <kbd>lipo</kbd> command. In terminal, type command below:
