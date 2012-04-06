@@ -14,7 +14,7 @@ title: Shander Lam's Blog
   {% for category in site.categories %}
     <li>
       {{ category[0] | join: "/"  }}
-      <span>{{ category[1].size }}</span>
+      <span>({{ category[1].size }})</span>
     </li>
   {% endfor %}
 </ul>
