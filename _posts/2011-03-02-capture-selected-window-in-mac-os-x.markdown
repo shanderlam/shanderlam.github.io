@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Capture Select Window in Mac OS X
+title: Capture Selected Window in Mac OS X
 tags: [osx]
 date: 2011-03-02 13:35:10.000000000 +08:00
 ---
