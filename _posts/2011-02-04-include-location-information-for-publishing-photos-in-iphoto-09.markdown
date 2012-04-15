@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Including Location Information For Publish Photos in iPhoto 09
+title: Include Location Information For Publishing Photos in iPhoto 09
 tags: [iphoto]
 date: 2011-02-04 01:12:38.000000000 +08:00
 ---
