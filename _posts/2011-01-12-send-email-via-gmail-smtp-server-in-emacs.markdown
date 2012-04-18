@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Send Email Via Gmail SMTP in Emacs
+title: Send Email Via Gmail SMTP Server in Emacs
 category: Text Editor
 tags: [emacs]
 date: 2011-01-12 23:49:51.000000000 +08:00
