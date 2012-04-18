@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Restore Mysql Database From SQL Dump File
-category: System Administrator
+category: Database
 tags: [mysql]
 date: 2011-02-07 16:12:20.000000000 +08:00
 ---
