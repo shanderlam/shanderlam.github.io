@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Add Foreign Key for MYSQL Table
-categroy: Database
+category: Database
 tags: [mysql]
 date: 2010-08-10 20:15:53.000000000 +08:00
 ---
