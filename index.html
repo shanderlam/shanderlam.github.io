@@ -9,15 +9,7 @@ title: Shander Lam's Blog
   {% endfor %}
 </ul>
 <a href="archive.html">Archive</a>
-<h3>Categories</h3>
-<ul>
-  {% for category in site.categories %}
-    <li>
-      {{ category[0] | join: "/"  }}
-      <span>({{ category[1].size }})</span>
-    </li>
-  {% endfor %}
-</ul>
+<a href="categories.html">Categories</a>
 <h3>Tags</h3>
 <ul>
   {% for tag in site.tags %}
