@@ -7,7 +7,7 @@ date: 2010-05-22 22:14:30.000000000 +08:00
 ---
 图片的客户端映射可以使图片的不同区域链接到不同的目标。可以通过结合使用&lt;img&gt;元素的usemap属性和&lt;map&gt;元素来达到这个效果，下面是一个示例：
 
-    <img src="http://blog.shanderlam.com/wp-content/uploads/2010/05/googleandmicrosoft.jpg" alt="google and microsoft" usemap="#map1" />
+    <img src="/images/googleandmicrosoft.jpg" alt="google and microsoft" usemap="#map1" />
     <map name="map1">
         <area coords="0, 0, 169, 67" href="http://www.google.com" title="Google official website" />
         <area coords="0, 68, 169, 135" href="http://www.microsoft.com"  title="Microsoft official website" />
@@ -16,7 +16,7 @@ date: 2010-05-22 22:14:30.000000000 +08:00
 其效果如下：
 
 <div>
-    <img src="http://blog.shanderlam.com/wp-content/uploads/2010/05/googleandmicrosoft.jpg" alt="google and microsoft" usemap="#map1" />
+    <img src="/images/googleandmicrosoft.jpg" alt="google and microsoft" usemap="#map1" />
     <map name="map1">
         <area coords="0, 0, 169, 67" shape="rect" href="http://www.google.com" title="Google official website" />
         <area coords="0, 68, 169, 135" shape="rect" href="http://www.microsoft.com" title="Microsoft official website" />
