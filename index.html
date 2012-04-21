@@ -18,3 +18,9 @@ title: Shander Lam's Blog
     </li>
   {% endfor %}
 </ul>
+<h3>Tags</h3>
+<ul>
+  {% for tag in site.tags %}
+      <li>{{ tag[0] }} <span>{{ tag[1].size }}</span></li>
+  {% endfor %}
+</ul>
