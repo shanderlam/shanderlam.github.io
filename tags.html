@@ -1,0 +1,19 @@
+---
+layout: default
+title: Tags | Shander Lam's Blog
+---
+<h1>Posts By Tag</h1>
+{% for tag in site.tags %}
+  <h2>{{ tag[0] }} <span>({{ tag[1].size }})</span></h2>
+  <ul>
+    {% for node in tag[1] %}
+      {% if group == null or group == node.group %}
+      {% if page.url == node.url %}
+      <li><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
+      {% else %}
+      <li><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
+      {% endif %}
+      {% endif %}
+    {% endfor %}
+  </ul>
+{% endfor %}
