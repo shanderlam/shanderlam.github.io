@@ -7,9 +7,11 @@ title: Shander Lam's Blog
   <a href="categories.html">Categories</a>
   <a href="tags.html">Tags</a>
 </nav>
-<h3>Recent Posts</h3>
-<ul>
-  {% for post in site.posts limit:10 %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+<section>
+  <h3>Recent Posts</h3>
+  <ul>
+    {% for post in site.posts limit:10 %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
