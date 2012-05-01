@@ -3,11 +3,11 @@ html {
 }
 
 kbd {
-    padding: 2px 4px;
+    padding: 0.2em 0.4em;
     white-space: nowrap;
     color: black;
     background: #EEE;
-    border-width: 1px 3px 3px 1px;
+    border-width: 0.1em 0.3em 0.3em 0.1em;
     border-style: solid;
     border-color: #CCC #AAA #888 #BBB;
 }
