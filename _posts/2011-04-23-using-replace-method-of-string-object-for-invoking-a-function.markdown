@@ -9,27 +9,31 @@ In JavaScript, *String* Object has a *replace* method, if the second parameter g
 
 The arguments to the function are as follows:
 
-<table> 
-    <tr>
-        <th>Possible name</th>
-        <th>Supplied value</th>
-    </tr> 
-    <tr>
-        <td><code>str</code></td>
-        <td>The matched substring. (Corresponds to $&amp; above.)</td>
-    </tr>
-    <tr>
-        <td><code>p1, p2, ...</code></td>
-        <td>The <em>n</em>th parenthesized submatch string, provided the first argument to <code>replace</code> was a <code>RegExp</code> object. (Correspond to $1, $2, etc. above.)</td>
-    </tr>
-    <tr>
-        <td><code>offset</code></td>
-        <td>The offset of the matched substring within the total string being examined. (For example, if the total string was <code>&quot;abcd&quot;</code>, and the matched substring was <code>&quot;bc&quot;</code>, then this argument will be <code>1</code>.)</td>
-    </tr>
-    <tr>
-        <td><code>s</code></td>
-        <td>The total string being examined.</td>
-    </tr>
+<table>
+    <thead>
+        <tr>
+            <th>Possible name</th>
+            <th>Supplied value</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><code>str</code></td>
+            <td>The matched substring. (Corresponds to $&amp; above.)</td>
+        </tr>
+        <tr>
+            <td><code>p1, p2, ...</code></td>
+            <td>The <em>n</em>th parenthesized submatch string, provided the first argument to <code>replace</code> was a <code>RegExp</code> object. (Correspond to $1, $2, etc. above.)</td>
+        </tr>
+        <tr>
+            <td><code>offset</code></td>
+            <td>The offset of the matched substring within the total string being examined. (For example, if the total string was <code>&quot;abcd&quot;</code>, and the matched substring was <code>&quot;bc&quot;</code>, then this argument will be <code>1</code>.)</td>
+        </tr>
+        <tr>
+            <td><code>s</code></td>
+            <td>The total string being examined.</td>
+        </tr>
+    </tbody>
 </table>
 
 Below is a example:
