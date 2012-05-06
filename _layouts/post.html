@@ -5,3 +5,11 @@ layout: default
   <h1>{{ page.title }}</h1>
   {{ content }}
 </article>
+<section>
+  <h3>Related Posts</h3>
+  <ul>
+    {% for post in site.related_posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
