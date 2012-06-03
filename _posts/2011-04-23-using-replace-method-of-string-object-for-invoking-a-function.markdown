@@ -5,7 +5,11 @@ category: Programming
 tags: [javascript]
 date: 2011-04-23 20:33:50.000000000 +08:00
 ---
-In JavaScript, *String* Object has a *replace* method, if the second parameter given to the method is a function, this function will be invoke after match peformed. The function's result (return value) will be used as the replacement string.  Note that the function will be invoked multiple times for each full match to be replaced if the regular expression in the first parameter is global.
+In JavaScript, *String* Object has a *replace* method, if the second parameter
+given to the method is a function, this function will be invoke after match
+peformed. The function's result (return value) will be used as the replacement
+string.  Note that the function will be invoked multiple times for each full
+match to be replaced if the regular expression in the first parameter is global.
 
 The arguments to the function are as follows:
 
@@ -46,5 +50,10 @@ Below is a example:
         image = {src: src, alt: alt};
     }
 
-After *replace* method invoked, the <var>image</var> Object have two property, one is *src*, value is *"http://www.shanderlam.com/favicon.ico"*, and another is *alt*, value is *"Shander Lam"*. Because the *replace* method doesn't change the value of original string, so use the code above same as first extract *src* and *alt* attribute from <var>string</var>, then use them as parameters for invoking *replacer* function.
+After *replace* method invoked, the <var>image</var> Object have two property,
+one is *src*, value is *"http://www.shanderlam.com/favicon.ico"*, and another is
+*alt*, value is *"Shander Lam"*. Because the *replace* method doesn't change the
+value of original string, so use the code above same as first extract *src* and
+*alt* attribute from <var>string</var>, then use them as parameters for invoking
+*replacer* function.
 
