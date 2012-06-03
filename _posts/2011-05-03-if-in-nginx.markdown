@@ -36,4 +36,9 @@ In some nginx configuration file, you may find some lines like below:
       rewrite ^ http://example.com/ permanent;
     }
 
-You may think *if* above is a control structure like other programing language. But not, in nginx, *if* just a directive of *HttpRewriteModule* module. So you can't find *if* syntax in configuration section of nginx wiki. It's syntax located in the [*HttpRewriteModule*](http://wiki.nginx.org/HttpRewriteModule#if) section of nginx wiki.
+You may think *if* above is a control structure like other programing
+language. But not, in nginx, *if* just a directive of *HttpRewriteModule*
+module. So you can't find *if* syntax in configuration section of nginx
+wiki. It's syntax located in the
+[*HttpRewriteModule*](http://wiki.nginx.org/HttpRewriteModule#if) section of
+nginx wiki.
