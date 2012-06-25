@@ -5,11 +5,11 @@ title: Categories | Shander Lam's Blog
 <h1>Posts By Category</h1>
 <ul>
   {% for category in site.categories %}
-    <li><a href="#{{ category[0] }}-ref">{{ category[0] | join: "/" }} <span>({{ category[1].size }})</span></a></li>
+    <li><a href="#{{ category[0] | downcase | replace: ' ', '-' }}-ref">{{ category[0] | join: "/" }} <span>({{ category[1].size }})</span></a></li>
   {% endfor %}
 </ul>
 {% for category in site.categories %}
-  <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }} <span>({{ category[1].size }})</span></h2>
+  <h2 id="{{ category[0] | downcase | replace: ' ', '-' }}-ref">{{ category[0] | join: "/" }} <span>({{ category[1].size }})</span></h2>
   <ul>
     {% for node in category[1] %}
       {% if group == null or group == node.group %}
