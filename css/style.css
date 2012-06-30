@@ -1,12 +1,82 @@
 html {
     font-family: verdana;
+    color: #552E20;
+    background-color: #F4E2DB;
+}
+
+body {
+    margin: 0;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, nav a {
+    text-decoration: none;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+    color: #552E20;
+}
+
+header {
+    padding: 1em 0;
+    background-color: #552E20;
+    position: relative;
+}
+
+header h1, header h2, header a, header h2 a:hover {
+    color: #F4E2DB;
+    margin: 0;
+    display: inline-block;
+}
+
+header nav a {
+    color: #DCA882;
+}
+
+header nav a:hover {
+    color: #F4E2DB;
+}
+
+header nav {
+    float: right;
+    margin-right: 2em;
+}
+
+header nav a {
+    font-size: 1.25em;
+    padding: 0.25em;
+}
+
+body>header, body>article, body>section {
+    padding-left: 1em;
+}
+
+a {
+    color: #8D5233;
+}
+
+a {
+    -webkit-transition-property: color;
+    -webkit-transition-duration: 0.15s;
+    -webkit-transition-timing-function: ease-out;
+
+    -moz-transition-property: color;
+    -moz-transition-duration: 0.15s;
+    -moz-transition-timing-function: ease-out;
+
+    -o-transition-property: color;
+    -o-transition-duration: 0.15s;
+    -o-transition-timing-function: ease-out;
+
+    transition-property: color;
+    transition-duration: 0.15s;
+    transition-timing-function: ease-out;
 }
 
 kbd {
     padding: 0.2em 0.4em;
     white-space: nowrap;
-    color: black;
-    background: #EEE;
+    background-color: #EEE;
     border-width: 0.1em 0.3em 0.3em 0.1em;
     border-style: solid;
     border-color: #CCC #AAA #888 #BBB;
