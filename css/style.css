@@ -96,3 +96,25 @@ kbd {
 ::selection {
     background-color: #DCA882;
 }
+
+nav a.feed::before, nav a.tags::before,
+nav a.categories::before, nav a.archive::before {
+    font-family: FontAwesome;
+    padding-right: 0.2em;
+}
+
+nav a.feed::before {
+    content: "\f09e";
+}
+
+nav a.tags::before {
+    content: "\f02c";
+}
+
+nav a.categories::before {
+    content: "\f00b";
+}
+
+nav a.archive::before {
+    content: "\f019";
+}
