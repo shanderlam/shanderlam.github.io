@@ -45,7 +45,6 @@ header nav a, header nav a::before {
     vertical-align: top;
     height: 2em;
     width: 2em;
-    line-height: 2em;
 }
 
 header nav a {
@@ -55,6 +54,7 @@ header nav a {
     border-radius: 50%;
     background-color: #F4E2DB;
     overflow: hidden;
+    line-height: 2em;
 }
 
 header nav a:hover {
@@ -64,6 +64,7 @@ header nav a:hover {
 header nav a::before {
     font-family: FontAwesome;
     text-align: center;
+    line-height: 2.2em;
 }
 
 header nav a.feed::before {
