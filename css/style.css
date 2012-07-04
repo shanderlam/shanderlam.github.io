@@ -40,6 +40,14 @@ header h1, header h2, header a, header h2 a:hover {
     display: inline-block;
 }
 
+header nav a, header nav a::before {
+    display: inline-block;
+    vertical-align: top;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+}
+
 header nav a {
     font-size: 1.25em;
     color: #8D5233;
@@ -51,14 +59,6 @@ header nav a {
 
 header nav a:hover {
     color: #552E20;
-}
-
-header nav a, header nav a::before {
-    display: inline-block;
-    vertical-align: middle;
-    height: 2em;
-    width: 2em;
-    line-height: 2em;
 }
 
 header nav a::before {
