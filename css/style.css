@@ -53,9 +53,7 @@ header nav a:hover {
     color: #552E20;
 }
 
-header nav a,
-header nav a.feed::before, header nav a.tags::before,
-header nav a.categories::before, header nav a.archive::before {
+header nav a, header nav a::before {
     display: inline-block;
     vertical-align: middle;
     height: 2em;
@@ -63,8 +61,7 @@ header nav a.categories::before, header nav a.archive::before {
     line-height: 2em;
 }
 
-header nav a.feed::before, header nav a.tags::before,
-header nav a.categories::before, header nav a.archive::before {
+header nav a::before {
     font-family: FontAwesome;
     text-align: center;
 }
