@@ -65,6 +65,19 @@ header nav a::before {
     font-family: FontAwesome;
     text-align: center;
     line-height: 2.2em;
+    background-image: -webkit-radial-gradient(22.5% 22.5%, circle cover, #F4E2DB, #DCA882);
+    background-image: -moz-radial-gradient(22.5% 22.5%, circle cover, #F4E2DB, #DCA882);
+    background-image: -ms-radial-gradient(22.5% 22.5%, circle cover, #F4E2DB, #DCA882);
+    background-image: -o-radial-gradient(22.5% 22.5%, circle cover, #F4E2DB, #DCA882);
+    background-image: radial-gradient(22.5% 22.5%, circle cover, #F4E2DB, #DCA882);
+}
+
+header nav a:hover::before {
+    background-image: -webkit-radial-gradient(22.5% 22.5%, circle cover, #DCA882, #F4E2DB);
+    background-image: -moz-radial-gradient(22.5% 22.5%, circle cover, #DCA882, #F4E2DB);
+    background-image: -ms-radial-gradient(22.5% 22.5%, circle cover, #DCA882, #F4E2DB);
+    background-image: -o-radial-gradient(22.5% 22.5%, circle cover, #DCA882, #F4E2DB);
+    background-image: radial-gradient(22.5% 22.5%, circle cover, #DCA882, #F4E2DB);
 }
 
 header nav a.feed::before {
