@@ -45,13 +45,13 @@ header nav a, header nav a::before {
     vertical-align: top;
     height: 2em;
     width: 2em;
+    border-radius: 50%;
 }
 
 header nav a {
     font-size: 1.25em;
     color: #8D5233;
     margin-left: 1em;
-    border-radius: 50%;
     background-color: #F4E2DB;
     overflow: hidden;
     line-height: 2em;
