@@ -32,6 +32,8 @@ header {
     padding: 1em 0;
     background-color: #552E20;
     line-height: 2em;
+    box-shadow: 0 0.15em 0.3em rgba(0, 0, 0, 0.6);
+
     background-image: -webkit-linear-gradient(#8D5233, #552E20);
     background-image: -moz-linear-gradient(#8D5233, #552E20);
     background-image: -ms-linear-gradient(#8D5233, #552E20);
