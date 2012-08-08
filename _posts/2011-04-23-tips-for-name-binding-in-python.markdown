@@ -23,16 +23,12 @@ one, unless a contained block introduces a different binding for the name.
 So, in the codes below, *get_a* function does not define a name <var>a</var>, it
 will refer to the global definition of <var>a</var>:
 
-<pre>
-<samp>
->>> a = 1
->>> def get_a():
-...      return a
-...
->>> get_a()
-1
-</samp>
-</pre>
+    >>> a = 1
+    >>> def get_a():
+    ...      return a
+    ...
+    >>> get_a()
+    1
 
 <cite>
 If a name binding operation occurs anywhere within a code block, all uses of the
@@ -47,36 +43,28 @@ So, if you define a name <var>a</var> in the *get_a* function, changes apply to
 <var>a</var> on affect in the local value inside *get_a* function, the global
 <var>a</var> doesn't changed:
 
-<pre>
-<samp>
->>> a = 1
->>> def get_a():
-...     a = 2
-...     return a
-...
->>> get_a()
-2
->>> a
-1
-</samp>
-</pre>
+    >>> a = 1
+    >>> def get_a():
+    ...     a = 2
+    ...     return a
+    ...
+    >>> get_a()
+    2
+    >>> a
+    1
 
 And in this scenarios, you can't use <var>a</var> before it is bound:
 
-<pre>
-<samp>
->>> a = 1
->>> def get_a():
-...     print a
-...     a = 2
-...
->>> get_a()
-Traceback (most recent call last):
-  File "&lt;stdin&gt;", line 1, in &lt;module&gt;
-  File "&lt;stdin&gt;", line 2, in get_a
-UnboundLocalError: local variable 'a' referenced before assignment
-</samp>
-</pre>
+    >>> a = 1
+    >>> def get_a():
+    ...     print a
+    ...     a = 2
+    ...
+    >>> get_a()
+    Traceback (most recent call last):
+    File "&lt;stdin&gt;", line 1, in &lt;module&gt;
+    File "&lt;stdin&gt;", line 2, in get_a
+    UnboundLocalError: local variable 'a' referenced before assignment
 
 <cite>
 If the global statement occurs within a block, all uses of the name specified in
@@ -86,17 +74,13 @@ the statement refer to the binding of that name in the top-level namespace.
 So, if you use global statement in *get_a* with <var>a</var>, you will refer to
 the global <var>a</var> in the function:
 
-<pre>
-<samp>
->>> a = 1
->>> def get_a():
-...     global a
-...     a = 2
-...     return a
-...
->>> get_a()
-2
->>> a
-2
-</samp>
-</pre>
+    >>> a = 1
+    >>> def get_a():
+    ...     global a
+    ...     a = 2
+    ...     return a
+    ...
+    >>> get_a()
+    2
+    >>> a
+    2
