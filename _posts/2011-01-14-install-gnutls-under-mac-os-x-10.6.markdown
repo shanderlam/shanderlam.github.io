@@ -23,7 +23,7 @@ date: 2011-01-14 03:41:20.000000000 +08:00
     mpih-add1-asm.S:113:suffix or operands invalid for `pop'
     mpih-add1-asm.S:114:suffix or operands invalid for `pop'
 
-这个错误可通过在configure时增加可选项<var>disable-asm</var>来避免。
+这个错误可通过在configure时增加可选项*disable-asm*来避免。
 
     ./configure --disable-asm
 
@@ -89,21 +89,21 @@ date: 2011-01-14 03:41:20.000000000 +08:00
 
     Code built with gcc on Mac OS X 10.6 uses the object size checking feature of gcc by default. This involves redefining
     several functions as macros; one of these functions is snprintf:
-    
-    	#define snprintf(str, len, ...) \
-     	 __builtin___snprintf_chk (str, len, 0, __darwin_obsz(str), __VA_ARGS__)
-    
+
+        #define snprintf(str, len, ...) \
+         __builtin___snprintf_chk (str, len, 0, __darwin_obsz(str), __VA_ARGS__)
+
     The usage of snprintf in src/serv.c in gnutls-2.10.4 is not compatible with that macro. serv.c attempts to
     use a macro (tmp2) that expands into two different arguments:
-    
-    	#define tmp2 &http_buffer[strlen(http_buffer)], len-strlen(http_buffer)
-    
-    	snprintf (tmp2, "%.2X", sesid[i]);
-    
+
+        #define tmp2 &http_buffer[strlen(http_buffer)], len-strlen(http_buffer)
+
+        snprintf (tmp2, "%.2X", sesid[i]);
+
     Due to how nested macro evaluation works, the snprintf macro sees tmp2 as a single argument, and copies it
     into __darwin_obsz(); then, when tmp2 is expanded, __darwin_obsz has two arguments, but it is only
     defined for one, and the result is a compilation error.
-    
+
     One way to work around this issue might be to define _FORTIFY_SOURCE=0 so that the snprintf macro is not
     defined, or simply doing an #undef snprintf for that file, but it seems safer and more portable to split
     tmp2 into two macros. I append a patch that does so.
