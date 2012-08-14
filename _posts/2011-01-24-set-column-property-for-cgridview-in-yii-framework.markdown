@@ -10,6 +10,6 @@ date: 2011-01-24 04:18:03.000000000 +08:00
         'group_name',
         array(
                 'class'=>'CButtonColumn',
-                'deleteConfirmation'=>'Do you want to delete this item?',                                                                                                                                      
+                'deleteConfirmation'=>'Do you want to delete this item?',
         ),
     ),
