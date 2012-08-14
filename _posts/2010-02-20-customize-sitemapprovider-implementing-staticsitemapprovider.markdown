@@ -17,7 +17,7 @@ System.Security.Permissions.SecurityAction.Demand表示要求调用堆栈中的�
 在MySiteMapProvider类中，为了能够自定义RootNode，需要声明一个私有的SiteMapNode类型变量rootNode用来保存根节点的值。除此之外，还需要重写RootNode属性使其与rootNode变量关联，代码如下：
 
     private SiteMapNode rootNode = null;
-    
+
     // Return the root node of the current site map.
     public override SiteMapNode RootNode
     {
@@ -72,7 +72,7 @@ System.Security.Permissions.SecurityAction.Demand表示要求调用堆栈中的�
             return rootNode;
         }
     }
-    
+
     protected override SiteMapNode GetRootNodeCore()
     {
         return RootNode;
