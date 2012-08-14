@@ -9,26 +9,19 @@ date: 2010-08-10 20:15:53.000000000 +08:00
 在MySQL数据库如果要为一张表增加外键索引，可以使用以下语法：
 
     ALTER TABLE tbl_name
-        ADD FOREIGN KEY [index_name] (index_col_name,...) 
+        ADD FOREIGN KEY [index_name] (index_col_name,...)
         reference_definition
 
-<dl>
-<dt>reference_definition</dt>
-<dd>
-<pre>
-REFERENCES <var>tbl_name</var> (<var>index_col_name</var>,...)
-  [MATCH FULL | MATCH PARTIAL | MATCH SIMPLE]
-  [ON DELETE <var>reference_option</var>]
-  [ON UPDATE <var>reference_option</var>]
-</pre>
-</dd>
-<dt>reference_option</dt>
-<dd>
-<pre>
-RESTRICT | CASCADE | SET NULL | NO ACTION
-</pre>
-</dd>
-</dl>
+*reference_definition*
+
+    REFERENCES <var>tbl_name</var> (<var>index_col_name</var>,...)
+      [MATCH FULL | MATCH PARTIAL | MATCH SIMPLE]
+      [ON DELETE <var>reference_option</var>]
+      [ON UPDATE <var>reference_option</var>]
+
+*reference_option*
+
+    RESTRICT | CASCADE | SET NULL | NO ACTION
 
 **注:**
 
