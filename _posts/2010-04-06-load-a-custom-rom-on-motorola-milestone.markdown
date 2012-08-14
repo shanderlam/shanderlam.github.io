@@ -6,10 +6,10 @@ date: 2010-04-06 11:38:22.000000000 +08:00
 ---
 ### 准备工作
 
-<ol>
-<li><a href="http://and-developers.com/tools:rsd_lite" target="_blank">下载</a>RSDLite刷机软件。</li>
-<li><a href="http://and-developers.com/sbf" target="_blank">下载</a>一个<acronym title="Single Binary File">SBF</acronym>，SBF是可以通过RSDLite刷到MileStone上二进制文件。</li>
-</ol>
+
+1. [下载](http://and-developers.com/tools:rsd_lite)RSDLite刷机软件。
+2. [下载](http://and-developers.com/sbf)一个<acronym title="Single Binary File">SBF</acronym>，SBF是可以通过RSDLite刷到MileStone上二进制文件。
+
 
 ### 开始刷机
 
