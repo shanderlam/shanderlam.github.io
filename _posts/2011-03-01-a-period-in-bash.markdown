@@ -8,7 +8,7 @@ date: 2011-03-01 16:55:51.000000000 +08:00
 Below is description of *.* in bash manual.
 
 *.* (a period)
-: . filename [arguments]
+: . filename \[arguments\]
 
 Read and execute commands from the *filename* argument in the current shell
 context.  If *filename* does not contain a slash, the *PATH* variable is used to

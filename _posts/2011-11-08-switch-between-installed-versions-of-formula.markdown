@@ -13,7 +13,7 @@ of this command.
 :   Switch between installed versions of <var>&lt;formula&gt;</var>. If you
 have multiple versions of a formula installed, the standard brew link command
 will fail. switch tries to unlink all versions from <var>HOMEBREW_PREFIX</var>,
-then [re]links the requested version.
+then \[re\]links the requested version.
 
 With this command, you can switch installed versions of formula by typing
 `brew switch <formula> <version>` in command line. For example, the code below
