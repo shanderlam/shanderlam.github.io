@@ -130,15 +130,6 @@ a {
     transition-timing-function: ease-out;
 }
 
-kbd {
-    padding: 0.2em 0.4em;
-    white-space: nowrap;
-    background-color: #EEE;
-    border-width: 0.1em 0.3em 0.3em 0.1em;
-    border-style: solid;
-    border-color: #CCC #AAA #888 #BBB;
-}
-
 ::selection {
     background-color: #DCA882;
 }
