@@ -13,18 +13,18 @@ Firstly, download
 [etags-table.el](http://www.emacswiki.org/emacs/download/etags-table.el) file,
 and put it to your Emacs *load-path*.
 
-Then, make some change in your init file. If you want the EtagsTable
+Then, make some change in your init file.  If you want the EtagsTable
 automatically search tags file for you, put below code in your init file.
 
     (require 'etags-table)
     (setq etags-table-search-up-depth 10)
 
-With the code above, Emacs will search the file path upwards for a tags file. If
-one is found, it will be added to the tags table list. The value *10* of
+With the code above, Emacs will search the file path upwards for a tags file.  If
+one is found, it will be added to the tags table list.  The value *10* of
 <var>etags-table-search-up-depth</var> indicate the max depth to search up for a
-tags file is 10. If this variable is *nil*, means don's search.
+tags file is 10.  If this variable is *nil*, means don's search.
 
-If you want to set tags table list for specified project. You can put below code
+If you want to set tags table list for specified project.  You can put below code
 in your init file.
 
     (require 'etags-table)
@@ -33,9 +33,9 @@ in your init file.
            '("/home/devel/proj1/.*" "/home/devel/proj1/TAGS" "/home/devel/common/TAGS")
            ))
 
-The variable *etags-table-alist* maps filename to tag file(s). The first element
+The variable *etags-table-alist* maps filename to tag file(s).  The first element
 of the list is used to compared with current file, if it matches, all the rest
-of the list elements are put on *tags-table-list*. That means with the code
+of the list elements are put on *tags-table-list*.  That means with the code
 above, if you work on a file named /home/devel/proj1/main.c, *tags-table-list*
 will be set to a list of:
 

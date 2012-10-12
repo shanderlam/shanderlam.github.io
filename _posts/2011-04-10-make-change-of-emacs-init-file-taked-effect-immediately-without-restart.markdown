@@ -14,4 +14,4 @@ Note: This is just evaluating the file, so it may not remove some settings
 before.
 
 e.g. You add some value to a list already, then you remove the corespondent code
-and evaluate the buffer. The value you add will not removed.
+and evaluate the buffer.  The value you add will not removed.

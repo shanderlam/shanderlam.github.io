@@ -5,13 +5,13 @@ category: Programming
 tags: [python]
 date: 2011-04-23 13:45:31.000000000 +08:00
 ---
-<p><cite>Names refer to objects. Names are introduced by name binding
-operations. Each occurrence of a name in the program text refers to the binding
+<p><cite>Names refer to objects.  Names are introduced by name binding
+operations.  Each occurrence of a name in the program text refers to the binding
 of that name established in the innermost function block containing the
 use.</cite></p>
 
-<p><cite>A scope defines the visibility of a name within a block. If a local
-variable is defined in a block, its scope includes that block. If the definition
+<p><cite>A scope defines the visibility of a name within a block.  If a local
+variable is defined in a block, its scope includes that block.  If the definition
 occurs in a function block, the scope extends to any blocks contained within the
 defining one, unless a contained block introduces a different binding for the
 name.</cite></p>
@@ -29,8 +29,8 @@ will refer to the global definition of <var>a</var>:
 <p><cite>If a name binding operation occurs anywhere within a code block, all
 uses of the name within the block are treated as references to the current
 block.This can lead to errors when a name is used within a block before it is
-bound. This rule is subtle. Python lacks declarations and allows name binding
-operations to occur anywhere within a code block. The local variables of a code
+bound.  This rule is subtle.  Python lacks declarations and allows name binding
+operations to occur anywhere within a code block.  The local variables of a code
 block can be determined by scanning the entire text of the block for name
 binding operations.</cite></p>
 
