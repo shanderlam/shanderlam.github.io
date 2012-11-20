@@ -51,6 +51,16 @@ header h1, header h2, header a, header h2 a:hover {
     display: inline-block;
 }
 
+header nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+header nav li {
+    display: inline-block;
+    list-style-type: none;
+}
+
 header nav a, header nav a::before {
     display: inline-block;
     vertical-align: top;
