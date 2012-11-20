@@ -1,3 +1,8 @@
+header {
+    height: auto;
+    line-height: 1;
+}
+
 header nav {
     position: static;
     margin: 10px 0 0;
