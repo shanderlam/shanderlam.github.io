@@ -1,5 +1,5 @@
 header nav {
-    float: none;
+    position: static;
     margin: 0;
     padding: 1em 0;
 }

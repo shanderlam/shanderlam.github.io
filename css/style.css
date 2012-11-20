@@ -21,6 +21,7 @@ body {
 
 header {
     padding: 1em 0;
+    position: relative;
     background-color: #552E20;
     height: 2.5em;
     line-height: 2.5em;
@@ -146,6 +147,8 @@ header nav a.archive::before {
 }
 
 header nav {
-    float: right;
+    position: absolute;
+    right: 0;
+    top: 1em;
     margin-right: 2em;
 }
