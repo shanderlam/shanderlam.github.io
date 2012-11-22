@@ -61,7 +61,8 @@ a {
 }
 
 ::selection {
-    background-color: #DCA882;
+    color: #F4E2DB;
+    background-color: #8D5233;
 }
 
 body>header, body>article, body>section {
