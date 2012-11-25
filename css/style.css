@@ -34,6 +34,14 @@ header {
     background-image: linear-gradient(#8D5233, #552E20);
 }
 
+article {
+    background-color: #FFF;
+    padding: 1em 2em;
+    margin: 1em;
+    overflow: hidden;
+    box-shadow: 0 0.15em 0.3em rgba(0, 0, 0, 0.6);
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: Georgia, serif;
 }
@@ -65,7 +73,7 @@ a {
     background-color: #8D5233;
 }
 
-body>header, body>article, body>section {
+body>header, body>section {
     padding-left: 1em;
     padding-right: 1em;
 }
