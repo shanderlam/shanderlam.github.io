@@ -10,8 +10,8 @@ article {
 
 header nav {
     position: static;
-    margin: 10px 0 0;
-    padding: 0;
+    margin: 0;
+    padding: 1em 0;
 }
 
 header nav li {
