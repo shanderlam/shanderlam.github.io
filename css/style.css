@@ -152,7 +152,7 @@ header nav a.categories::before {
 }
 
 header nav a.archive::before {
-    content: "\f019";
+    content: "\f187";
 }
 
 header nav {
